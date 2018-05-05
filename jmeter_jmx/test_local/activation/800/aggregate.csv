@@ -1,3 +1,0 @@
-sampler_label,aggregate_report_count,average,aggregate_report_median,aggregate_report_90%_line,aggregate_report_min,aggregate_report_max,aggregate_report_error%,aggregate_report_rate,aggregate_report_bandwidth
-activation,8000,1876,1940,1993,45,3001,0.0,392.67658175035587,55.60361753300937
-TOTAL,8000,1876,1940,1993,45,3001,0.0,392.67658175035587,55.60361753300937

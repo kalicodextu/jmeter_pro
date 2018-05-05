@@ -1,3 +1,0 @@
-sampler_label,aggregate_report_count,average,aggregate_report_median,aggregate_report_90%_line,aggregate_report_min,aggregate_report_max,aggregate_report_error%,aggregate_report_rate,aggregate_report_bandwidth
-alarm-config[put],10040,2155,2066,3075,8,5320,0.9854581673306773,110.0249857537369,10.198385206625609
-TOTAL,10040,2155,2066,3075,8,5320,0.9854581673306773,110.0249857537369,10.198385206625609

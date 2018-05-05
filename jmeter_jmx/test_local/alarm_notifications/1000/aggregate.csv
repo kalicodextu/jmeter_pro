@@ -1,3 +1,0 @@
-sampler_label,aggregate_report_count,average,aggregate_report_median,aggregate_report_90%_line,aggregate_report_min,aggregate_report_max,aggregate_report_error%,aggregate_report_rate,aggregate_report_bandwidth
-alarm-notifications,10000,2041,2160,2268,76,3233,0.5863,469.4615276278109,133.3753036829257
-TOTAL,10000,2041,2160,2268,76,3233,0.5863,469.4615276278109,133.3753036829257
