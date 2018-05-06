@@ -2,11 +2,11 @@ import sys
 import numpy
 from pylab import *
 
-x_threads = numpy.array([0, 1, 50, 200, 400])
+x_threads = numpy.array([0, 1, 2, 3, 4, 5, 10])
 
-y_samples = numpy.array([0, 843, 850, 790, 735])
-y_average = numpy.array([0, 355, 15133, 26550, 29228])
-y_tps = numpy.array([0, 2.7, 2.8, 2.5, 2.4])
+y_samples = numpy.array([0, 10446, 17235, 20746, 21210, 21654, 21267])
+y_average = numpy.array([0, 28, 34, 43, 56, 69, 140])
+y_tps = numpy.array([0, 34.8, 57.5, 69.2, 70.7, 72.2, 70.9])
 
 if __name__ == '__main__':
     if sys.argv[1] == 'samples':

@@ -1,12 +1,13 @@
 import sys
 import numpy
 from pylab import *
+from matplotlib import ticker
 
-x_threads = numpy.array([0, 1, 50, 200, 400])
+x_threads = numpy.array([0, 1, 2, 3, 4, 5, 10, 15, 20])
 
-y_samples = numpy.array([0, 843, 850, 790, 735])
-y_average = numpy.array([0, 355, 15133, 26550, 29228])
-y_tps = numpy.array([0, 2.7, 2.8, 2.5, 2.4])
+y_samples = numpy.array([0, 11853, 23260, 29857, 33812, 33926, 36803, 33609, 34944])
+y_average = numpy.array([0, 25, 25, 29, 35, 44, 81, 133, 171])
+y_tps = numpy.array([0, 39.5, 77.5, 99.5, 112.7, 113.1, 122.7, 112, 116.5])
 
 if __name__ == '__main__':
     if sys.argv[1] == 'samples':
@@ -29,67 +30,4 @@ if __name__ == '__main__':
         show()
     else:
         print 'pass'
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
